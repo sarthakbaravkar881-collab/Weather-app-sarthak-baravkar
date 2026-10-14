@@ -7,7 +7,7 @@ load_dotenv()
 API_KEY=os.getenv("WEATHER_API_KEY")
 
 st.set_page_config(page_title="Weather App",page_icon="🌤️")
-st.title("Weather App 🥶")
+st.title("Weather App By Sarthak 🥶")
 st.write("Enter The City Name And Click Button To fetch weather Data")
 city=st.text_input("Enter the city Name")
 if st.button("Fetch Weather Data"):
